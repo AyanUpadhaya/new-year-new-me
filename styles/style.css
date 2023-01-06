@@ -8,7 +8,6 @@
 
 .headers{
     padding: 216px 230px 650px;
-    /* position: relative; */
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: auto;
@@ -47,11 +46,10 @@
     font-weight: 600;
     cursor: pointer;
 }
-
+/* main starts */
 /* previous-year */
 .previous-year{
     padding: 130px 230px;
-    /* background-color: brown; */
 }
 .previous-year-container{
     display: flex;
@@ -84,4 +82,64 @@
 /* for font awesome icon */
 .fai{
     color:#16D887;
+}
+/* plans-section */
+.plans-section{
+    padding: 130px 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plans-section .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.plan-item{
+    width: 270px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    color:#151414;
+}
+.plan-description{
+    color:#737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* cta-section */
+
+.cta-section{
+    padding: 130px 180px;
+}
+
+.cta{
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding:10px;
+}
+.cta-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    width:459px;
+    margin-bottom: 24px;
+}
+.cta-content{
+    padding-top: 59px;
+    margin-left: 64px;
 }
