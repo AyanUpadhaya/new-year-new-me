@@ -8,10 +8,10 @@
 
 .headers{
     padding: 216px 230px 650px;
-    position: relative;
+    /* position: relative; */
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 
 }
 
@@ -34,6 +34,7 @@
     font-size: 16px;
     color:#fff;
     margin-bottom: 32px;
+    line-height: 26px;
 }
 .btn-primary{
     width: 160px;
@@ -45,4 +46,42 @@
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+}
+
+/* previous-year */
+.previous-year{
+    padding: 130px 230px;
+    /* background-color: brown; */
+}
+.previous-year-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 87px;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: bold;
+    width:350px;
+    color:#151414;
+    margin-bottom: 24px;
+}
+.section-description{
+    color: #444343;
+    font-weight: 400px;
+    margin-bottom: 16px;
+    line-height: 26px;
+    width: 416px;
+}
+.section-list{
+    list-style: none;
+}
+.section-list li{
+    margin-top: 8px;
+    font-weight: 400;
+    color:#444343;
+}
+/* for font awesome icon */
+.fai{
+    color:#16D887;
 }
