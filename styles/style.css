@@ -1,10 +1,15 @@
+/* for all selectors */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family:'Work Sans', sans-serif;
 }
-
+/* developer photo */
+.dev{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
 /* headers start */
 
 .headers{
@@ -145,9 +150,7 @@
     justify-content: center;
     align-items:center;
     padding-bottom: 130px;
-    /* background-color: blanchedalmond; */
     padding: 130px 230px;
-
 }
 .quote-form-container{
     display: flex;
@@ -224,9 +227,6 @@
     display: flex;
     gap:10px;
 }
-.icons{
-    cursor: pointer;
-}
 
 /* footer - subscribe */
 .subscribe{
@@ -241,7 +241,6 @@
 .subscribe input{
     background-color: #151414;
     width: 325px;
-    height: 64px;
     color:#fff;
     border-radius:8px;
     margin-bottom: 16px;
