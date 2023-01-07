@@ -35,17 +35,7 @@
     margin-bottom: 32px;
     line-height: 26px;
 }
-.btn-primary{
-    width: 160px;
-    height: 64px;
-    border: 0;
-    border-radius: 5px;
-    background-color:#fff ;
-    color:#005FAC;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-}
+
 /* main starts */
 /* previous-year */
 .previous-year{
@@ -82,6 +72,7 @@
 /* for font awesome icon */
 .fai{
     color:#16D887;
+    margin-right: 10px;
 }
 /* plans-section */
 .plans-section{
@@ -148,6 +139,56 @@
     margin-left: 64px;
     margin-bottom: 130px;
 }
+/* quotes */
+.quotes{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 130px;
+    /* background-color: blanchedalmond; */
+    padding: 130px 230px;
+
+}
+.quote-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.quote-form-container .section-title{
+    width:450px;
+    font-family: 'lobster', Courier, monospace;
+}
+.quote-form-container .section-caption{
+    font-size: 25px;
+    margin-bottom: 24px;
+    color:#737272;
+}
+.quote-form{
+    display: flex;
+    background-color: #b4c7f8;
+    padding: 100px 230px;
+    border-radius: 5px;
+}
+.quote-form input{
+    width: 400px;
+    height: 64px;
+    color:#151414;
+    border-top-left-radius:8px;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(197, 191, 191);
+    padding: 20px;
+    font-weight: 400px;
+}
+.quote-form .btn-secondary{
+    height: 63px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
 /* footer  */
 .footer{
     background-color: #151414;
@@ -209,14 +250,26 @@
     font-weight: 400px;
 }
 
-/* footer btn-secondary */
+/* all buttons */
 .btn-secondary{
     color:#fff;
     background: #005FAC;
     width: 170px;
     height: 64px;
+    border:none;
     border-radius: 5px;
     font-size: 20px;
     font-weight:600;
+    cursor: pointer;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    background-color:#fff ;
+    color:#005FAC;
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
 }
